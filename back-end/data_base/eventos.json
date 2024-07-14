@@ -1,0 +1,36 @@
+{
+  "evento": [
+    {
+      "titulo": "Work in Tech 1",
+      "descricao": "O Work in Tech foi um evento dedicado à inovação tecnológica, com workshops abrangentes e networking valioso. O evento se estendeu por dois dias cheios de oportunidades de aprendizado e colaboração.",
+      "data": "21-01-2024",
+      "imagem": "image/logo-unidev-dark.jpeg",
+      "status": "false",
+      "id": "0"
+    },
+    {
+      "titulo": "Work in Tech 2",
+      "descricao": "O Work in Tech foi um evento focado em tecnologia, com workshops práticos e discussões sobre as últimas tendências do setor. O evento ocorreu ao longo de dois dias intensos de aprendizado.",
+      "data": "21-03-2024",
+      "imagem": "image/logo-unidev-dark.jpeg",
+      "status": "false",
+      "id": "1"
+    },
+    {
+      "titulo": "Work in Tech 3",
+      "descricao": "O Work in Tech foi um evento que ofereceu workshops detalhados e sessões interativas, abrangendo dois dias de imersão total no mundo da tecnologia.",
+      "data": "21-06-2024",
+      "imagem": "image/logo-unidev-dark.jpeg",
+      "status": "false",
+      "id": "2"
+    },
+    {
+      "titulo": "Work in Tech 4",
+      "descricao": "O Work in Tech é um evento dedicado ao desenvolvimento de habilidades tecnológicas, com workshops práticos e palestras inspiradoras. Este evento abrange dois dias de aprendizado intensivo.",
+      "data": "21-09-2024",
+      "imagem": "image/logo-unidev-dark.jpeg",
+      "status": "true",
+      "id": "3"
+    }
+  ]
+}

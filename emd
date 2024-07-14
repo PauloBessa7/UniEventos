@@ -1,0 +1,29 @@
+[33mcommit a7d6ca896d06976b112ced7ee2ff4d96378e4079[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: PEDRO BESSA <pauloh.bess@gmail.com>
+Date:   Sun Jul 14 01:49:32 2024 -0300
+
+    Adicionado o método de edição de evntos
+
+[33mcommit 8f2e6e08e0cd8381e3929579efbfb9339aadf09d[m
+Author: PEDRO BESSA <pauloh.bess@gmail.com>
+Date:   Sat Jul 13 23:43:11 2024 -0300
+
+    Iniciado criação da pagina de edição de eventos
+
+[33mcommit 42edcae07ce6177631964d5626fd18fe40e0d0af[m
+Author: PEDRO BESSA <pauloh.bess@gmail.com>
+Date:   Sat Jul 13 21:27:48 2024 -0300
+
+    Mostrando os eventos com base no banco
+
+[33mcommit 664720cbaf0c8eec6fe9a7d543e6082a59fe0206[m
+Author: PEDRO BESSA <pauloh.bess@gmail.com>
+Date:   Sat Jul 13 20:47:45 2024 -0300
+
+    Iniciando a logica de mostrar os eventos
+
+[33mcommit 4d32fde9f85b5e57b0b48a13c9a3eada8757ecb2[m
+Author: PEDRO BESSA <pauloh.bess@gmail.com>
+Date:   Sat Jul 13 14:38:14 2024 -0300
+
+    Criando tela de index
