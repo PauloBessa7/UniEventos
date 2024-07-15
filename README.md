@@ -12,7 +12,7 @@ Este projeto foi desenvolvido como parte de um desafio técnico de 48 horas real
 Total de 20 horas dedicadas ao desenvolvimento.
 
 ## Vídeo do Projeto
-Assista ao vídeo do projeto [aqui]([https://www.youtube.com/watch?v=KDTsTCcTYXg](https://youtu.be/I5O7YzpQ4Bc)).
+Assista ao vídeo do projeto [aqui]([https://youtu.be/I5O7YzpQ4Bc]).
 
 
 ###Para dar inicio na aplicação após baixar e descompactar o arquivo zip, basta ir na pasta data_base e no cmd da pasta digitar npx json-server eventos.json
