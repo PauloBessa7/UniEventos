@@ -15,6 +15,10 @@ Total de 20 horas dedicadas ao desenvolvimento.
 Assista ao vídeo do projeto [aqui]([https://youtu.be/I5O7YzpQ4Bc]).https://youtu.be/I5O7YzpQ4Bc
 
 
-###Para dar inicio na aplicação após baixar e descompactar o arquivo zip, basta ir na pasta data_base e no cmd da pasta digitar npx json-server eventos.json
+### Para dar inicio na aplicação após baixar e descompactar o arquivo zip, basta ir na pasta data_base e no cmd da pasta digitar npx json-server eventos.json
 
 Observações : eu coloquei 20 horas para o desenvolvimento, pois eu passei algum tempo estudando o framework booststrap antes mesmo do desafio ser lançado, isso facilitou o desenvolvimento das paginas web.
+
+## Docker
+
+Caso voce quiser iniciar o projeto por um contâiner docker basta usar o comando ```docker run -d -p 3000:3000 paulobessa/app-node:1.0```, isso vai apenas iniciar o servidor do eventos.json na porta 3000, vai ser necessario iniciar o htlm pelo arquivo
