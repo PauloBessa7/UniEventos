@@ -15,5 +15,10 @@ WORKDIR /app-node/back-end
 # Instale as dependências
 RUN npm install
 
+WORKDIR /app-node/front-end/javascript
+RUN npm install express
+
+WORKDIR /app-node/back-end
+
 # Defina o ponto de entrada
-ENTRYPOINT ["npx", "json-server", "--watch", "data_base/eventos.json", "--port", "3000"]
+CMD ["npm", "start"]
