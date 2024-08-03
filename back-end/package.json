@@ -1,0 +1,18 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json": "npx json-server data_base/eventos.json --port 3000",
+    "web": "node ../front-end/javascript/app.js",
+    "start": "concurrently \"npm run json\" \"npm run web\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "json-server": "^1.0.0-beta.1"
+  }
+}

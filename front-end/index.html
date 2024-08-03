@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UniEventos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/stylesheets.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark" max-leght>
+        <div class="container ">
+            <a class="navbar-brand" href="#">
+                <img src="image/logo-unidev-dark.jpeg" alt="Bootstrap" width="30" height="24">
+                UniEventos
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutPage.html">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Eventos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="paginaEvento.html">Work in Teck 4</a></li>
+                            <li><a class="dropdown-item" href="paginaEvento.html">Work in Teck 3</a></li>
+                            <li><a class="dropdown-item" href="paginaEvento.html">Work in Teck 2</a></li>
+                            <li><a class="dropdown-item" href="paginaEvento.html">Work in Teck 1</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="formularioEventos.html">Formulário de Eventos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galleryPage.html">Galeria</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="display-5 text-center m-5 pt-5">UniEventos</h1>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="container-eventos">
+
+        </div>
+    </div>
+
+
+    <!-- ===== FOOTER ===== -->
+    <div class="container-fluid mt-5 bg-dark text-white pt-5 pb-5">
+        <div class="container">
+            <div class="row gap-2 ">
+                <div class="col-md-3">
+                    <img src="image/logo-unidev-dark-removebg-preview.png" style="width: 3rem;" alt="">
+                    <div class="container"></div>
+                    <font style="vertical-align: inherit;">
+                        Esse site foi um teste para estudar o framework Bootstrap, além de poder ter um pequeno projeto
+                        em meu portifólio
+                    </font>
+                </div>
+                <div class="col offset-lg-1">
+                    <h5 class="display-5 fs-3">Eventos</h5>
+                    <ul class="list-unstyled ">
+                        <li><a href="" class="link-offset-2 link-underline link-underline-opacity-0">Work in Tech 1</a>
+                        </li>
+                        <li><a href="" class="link-offset-2 link-underline link-underline-opacity-0">Work in Tech 2</a>
+                        </li>
+                        <li><a href="" class="link-offset-2 link-underline link-underline-opacity-0">Work in Tech 3</a>
+                        </li>
+                        <li><a href="" class="link-offset-2 link-underline link-underline-opacity-0">Work in Tech 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5 class="display-5 fs-3">Sobre</h5>
+                    <ul class="list-unstyled ">
+                        <li><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Quem
+                                Somos</a></li>
+                        <li><a href=https://www.google.com/maps/place/UniCesumar+-+Maring%C3%A1/@-23.4412899,-51.9194412,17z/data=!3m1!4b1!4m6!3m5!1s0x94e81a413a9c9463:0x4e3ee356ad1bd6c3!8m2!3d-23.4412899!4d-51.9168663!16s%2Fg%2F1tnjkr0f?entry=ttu""
+                                target="_blank"
+                                class="link-offset-2 link-underline link-underline-opacity-0">Localização</a>
+                        </li>
+                        <li><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Membros</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5 class="display-5 fs-3">Redes</h5>
+                    <ul class="list-unstyled ">
+                        <li><a href="https://www.linkedin.com/company/unidev-ti/" target="_blank">Linkedin</a></li>
+                        <li><a href="https://www.facebook.com/unidevti/?locale=pt_BR" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/unidev.ti/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>
